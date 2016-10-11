@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datasources>
+  <datasource jndi-name="java:jboss/datasources/MySQLDS" pool-name="MySqlDS" enabled="true" use-java-context="true">
+    <connection-url>jdbc:mysql://localhost:3306/pdp</connection-url>
+    <driver>mysqlDriver</driver>
+    <security>
+      <user-name>root</user-name>
+      <password>root</password>
+    </security> 
+  </datasource>
+  <drivers>
+    <driver name="mysqlDriver" module="com.mysql"/>
+  </drivers>
+</datasources>

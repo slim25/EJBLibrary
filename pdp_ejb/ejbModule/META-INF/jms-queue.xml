@@ -1,0 +1,6 @@
+<jms-destinations>
+	<jms-queue name="bookQueue">
+		<entry name="queue/BookQueue" />
+		<entry name="java:jboss/exported/jms/queue/BookQueue" />
+	</jms-queue>
+</jms-destinations>
